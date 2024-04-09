@@ -793,6 +793,7 @@ html {
   flex-direction: row;
   align-items: center;
   gap: 24px;
+  cursor: pointer;
 }
 
 .main-footer-contact__item > img {
