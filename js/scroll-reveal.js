@@ -63,10 +63,10 @@ ScrollReveal().reveal(".srcoll-header-right", {
   distance: "50rem",
 });
 
-ScrollReveal().reveal(".scroll-explore-before", {
-  duration: 2000,
-  delay: 500,
-  origin: "bottom",
-  easing: "cubic-bezier(0.5, 0, 0, 1)",
-  distance: "50rem",
-});
+// ScrollReveal().reveal(".scroll-explore-before", {
+//   duration: 2000,
+//   delay: 500,
+//   origin: "bottom",
+//   easing: "cubic-bezier(0.5, 0, 0, 1)",
+//   distance: "50rem",
+// });
