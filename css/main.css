@@ -489,9 +489,12 @@ html {
 }
 
 .provide-section__wrapper__image_1 {
-  background-image: url("../assets/core-value/provide1.svg");
+  background-image: url("../assets/core-value/provide1.png");
+  background-repeat: no-repeat;
+  background-position: center;
   width: 422px;
   height: 160px;
+  border-left: 2px solid var(--yellow-color);
   position: relative;
   transition: height 0.3s ease;
 }
@@ -515,9 +518,12 @@ html {
 }
 
 .provide-section__wrapper__image_2 {
-  background-image: url("../assets/core-value/provide2.svg");
+  background-image: url("../assets/core-value/provide2.png");
+  background-repeat: no-repeat;
+  background-position: center;
   width: 422px;
   height: 160px;
+  border-left: 2px solid var(--yellow-color);
   position: relative;
   transition: height 0.3s ease;
 }
