@@ -23,7 +23,28 @@ const infoCards = document.querySelector(".portfolio-section-info-cards");
 
 panigationRight.onclick = function () {
   infoCards.scrollLeft += 165;
+  updatePanigationOpacity();
 };
+
 panigationLeft.onclick = function () {
   infoCards.scrollLeft -= 165;
+  updatePanigationOpacity();
 };
+
+infoCards.addEventListener("scroll", function () {
+  updatePanigationOpacity();
+});
+
+function updatePanigationOpacity() {
+  const maxScrollLeft = infoCards.scrollWidth - infoCards.offsetWidth;
+  if (infoCards.scrollLeft === 0) {
+    panigationLeft.style.opacity = "0.3";
+  } else {
+    panigationLeft.style.opacity = "1";
+  }
+  if (infoCards.scrollLeft >= maxScrollLeft) {
+    panigationRight.style.opacity = "0.3";
+  } else {
+    panigationRight.style.opacity = "1";
+  }
+}

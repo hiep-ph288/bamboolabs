@@ -94,11 +94,8 @@ html {
 .circle2 {
   z-index: 5;
   position: absolute;
-  right: -35px;
-  bottom: 15%;
-  width: 90px;
-  height: 90px;
-  transform: translateY(-50%);
+  right: 0;
+  bottom: 20%;
 }
 
 .srcoll-header-left {
@@ -325,7 +322,7 @@ html {
   flex-direction: row;
   justify-content: space-between;
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 430px) and (max-width: 1280px) {
   .core_value-container {
     width: 90%;
     height: 90%;
@@ -400,7 +397,7 @@ html {
   border-bottom: 4px solid var(--yellow-color);
 }
 
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 430px) and (max-width: 1280px) {
   .core_value__description {
     font-size: 42px;
     line-height: 42px;
@@ -568,7 +565,7 @@ html {
   height: 42px;
   background-color: var(--yellow-color);
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 430px) and (max-width: 1280px) {
   .provide-section {
     gap: 24px;
   }
@@ -697,7 +694,7 @@ html {
   align-items: center;
   gap: 40px;
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 430px) and (max-width: 1280px) {
   .info-card {
     padding: 50px;
   }
@@ -810,7 +807,7 @@ html {
   line-height: 24px;
   text-transform: uppercase;
 }
-@media only screen and (max-width: 1280px) {
+@media only screen and (min-width: 430px) and (max-width: 1280px) {
   .footer_scroll-line {
     height: 35%;
   }
