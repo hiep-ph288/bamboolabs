@@ -53,8 +53,6 @@ ScrollReveal().reveal(".srcoll-header-left", {
   delay: 500,
   origin: "left",
   easing: "cubic-bezier(0.5, 0, 0, 1)",
-  viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
-  viewFactor: 0.5,
   distance: "50rem",
 });
 ScrollReveal().reveal(".srcoll-header-right", {
@@ -62,9 +60,6 @@ ScrollReveal().reveal(".srcoll-header-right", {
   delay: 500,
   origin: "right",
   easing: "cubic-bezier(0.5, 0, 0, 1)",
-
-  viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
-  viewFactor: 0.5,
   distance: "50rem",
 });
 
@@ -73,8 +68,5 @@ ScrollReveal().reveal(".scroll-explore-before", {
   delay: 500,
   origin: "bottom",
   easing: "cubic-bezier(0.5, 0, 0, 1)",
-
-  viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
-  viewFactor: 0.5,
   distance: "50rem",
 });

@@ -102,7 +102,7 @@ html {
   z-index: 1;
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 48%;
   width: 27%;
   transform: translateY(-50%);
 }
@@ -110,7 +110,7 @@ html {
   z-index: 1;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: 48%;
   width: 27%;
   transform: translateY(-50%);
 }

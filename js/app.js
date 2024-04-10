@@ -1,7 +1,7 @@
-// window.addEventListener("scroll", () => {
-//   const mainNav = document.querySelector(".main-header__navbar");
-//   mainNav.classList.toggle("active", window.scrollY > 0);
-// });
+window.addEventListener("scroll", () => {
+  const mainNav = document.querySelector(".main-header__navbar");
+  mainNav.classList.toggle("active", window.scrollY > 0);
+});
 
 const scrollExplore = document.querySelector(".scroll-explore-before");
 
