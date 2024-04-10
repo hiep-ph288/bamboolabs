@@ -1,149 +1,80 @@
-// *******************************
-//      ScrollReveal animations
-// *******************************
-
-// -----  Main header -----
-ScrollReveal().reveal(".main-header-navbar", {
+ScrollReveal().reveal(".star1", {
   duration: 2000,
   delay: 500,
-  origin: "top",
+  origin: "bottom",
+  distance: "200rem",
+  rotate: { x: 50, y: 200, z: 50 },
+});
+ScrollReveal().reveal(".star2", {
+  duration: 2000,
+  delay: 500,
+  origin: "bottom",
+  distance: "50rem",
+  rotate: { x: 50, y: 50, z: 0 },
+});
+ScrollReveal().reveal(".star3", {
+  duration: 2000,
+  delay: 500,
+  origin: "bottom",
+  distance: "10rem",
+  rotate: { x: 50, y: 20, z: 0 },
+});
+ScrollReveal().reveal(".dollar1", {
+  duration: 2000,
+  delay: 500,
+  origin: "bottom",
+  distance: "5rem",
+  rotate: { x: 50, y: 0, z: 50 },
+});
+ScrollReveal().reveal(".dollar2", {
+  duration: 2000,
+  delay: 500,
+  origin: "bottom",
+  distance: "5rem",
+  rotate: { x: 50, y: 0, z: 50 },
+});
+ScrollReveal().reveal(".circle1", {
+  duration: 2000,
+  delay: 500,
+  origin: "bottom",
   distance: "2rem",
+  rotate: { x: 0, y: 0, z: -50 },
 });
-ScrollReveal().reveal(".main-header-content-principal", {
-  duration: 2000,
-  delay: 500,
-  origin: "left",
-  distance: "2rem",
-});
-ScrollReveal().reveal(".main-header-content-principal__illustration", {
-  duration: 2000,
-  delay: 500,
-  origin: "right",
-  distance: "2rem",
-});
-
-// -----  Main content -----
-ScrollReveal().reveal(".stats-section__reference", {
+ScrollReveal().reveal(".circle2", {
   duration: 2000,
   delay: 500,
   origin: "bottom",
-  distance: "3rem",
+  distance: "10rem",
+  rotate: { x: 0, y: 50, z: -50 },
 });
 
-ScrollReveal().reveal(".why-us-section__illustration", {
+ScrollReveal().reveal(".srcoll-header-left", {
   duration: 2000,
   delay: 500,
   origin: "left",
-  distance: "3rem",
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+  viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
+  viewFactor: 0.5,
+  distance: "50rem",
 });
-
-ScrollReveal().reveal(".why-us-section__content", {
+ScrollReveal().reveal(".srcoll-header-right", {
   duration: 2000,
   delay: 500,
   origin: "right",
-  distance: "3rem",
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
+
+  viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
+  viewFactor: 0.5,
+  distance: "50rem",
 });
 
-ScrollReveal().reveal(".benefits-section__title", {
-  duration: 2000,
-  delay: 500,
-  origin: "left",
-  distance: "3rem",
-});
-
-ScrollReveal().reveal(".benefits-section__description", {
-  duration: 2000,
-  delay: 500,
-  origin: "right",
-  distance: "3rem",
-});
-
-ScrollReveal().reveal(".card-info", {
+ScrollReveal().reveal(".scroll-explore-before", {
   duration: 2000,
   delay: 500,
   origin: "bottom",
-  distance: "3rem",
-});
+  easing: "cubic-bezier(0.5, 0, 0, 1)",
 
-ScrollReveal().reveal(".cryptocurrencies-section__title", {
-  duration: 2000,
-  delay: 500,
-  origin: "left",
-  distance: "3rem",
-});
-
-ScrollReveal().reveal(".info-card", {
-  duration: 2000,
-  delay: 500,
-  origin: "bottom",
-  distance: "3rem",
-});
-
-// ----------  Features section  -------------
-ScrollReveal().reveal(".features-section__title", {
-  duration: 2000,
-  delay: 500,
-  origin: "top",
-  distance: "2rem",
-});
-ScrollReveal().reveal(".invest-smart-article__graphic", {
-  duration: 2000,
-  delay: 500,
-  origin: "right",
-  distance: "3rem",
-});
-ScrollReveal().reveal(".invest-smart-article__content", {
-  duration: 2000,
-  delay: 500,
-  origin: "left",
-  distance: "3rem",
-});
-
-ScrollReveal().reveal(".detailed-stats-article__content", {
-  duration: 2000,
-  delay: 500,
-  origin: "right",
-  distance: "3rem",
-});
-ScrollReveal().reveal(".detailed-stats-article__graphic", {
-  duration: 2000,
-  delay: 500,
-  origin: "left",
-  distance: "3rem",
-});
-
-ScrollReveal().reveal(".grow-profit-article__graphic", {
-  duration: 2000,
-  delay: 500,
-  origin: "right",
-  distance: "3rem",
-});
-ScrollReveal().reveal(".grow-profit-article__content", {
-  duration: 2000,
-  delay: 500,
-  origin: "left",
-  distance: "3rem",
-});
-
-ScrollReveal().reveal(".cta-section", {
-  duration: 2000,
-  delay: 500,
-  origin: "bottom",
-  distance: "3rem",
-});
-
-// ---- Main footer -------
-ScrollReveal().reveal(".footer-container", {
-  duration: 2000,
-  delay: 500,
-  origin: "left",
-  distance: "3rem",
-});
-
-// ---- Attribution -----
-ScrollReveal().reveal(".attribution p", {
-  duration: 2000,
-  delay: 500,
-  origin: "bottom",
-  distance: "3rem",
+  viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
+  viewFactor: 0.5,
+  distance: "50rem",
 });
